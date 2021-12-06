@@ -7,33 +7,43 @@
         </div>
         <div class="sidebar-brand-text mx-3">Pustaka Booking</div>
     </a>
-
     <!-- Divider -->
     <hr class="sidebar-divider">
-    
+
     <!-- Looping Menu-->
-        <!-- Heading -->
-        <div class="sidebar-heading">Master Data</div>
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Master Data
+    </div>
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item active">
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-                <i class="fa fa-fw fa book"></i>
-                <span>Data Buku</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
-                <i class="fa fa-fw fa book"></i>
-                <span>Data Anggota</span></a>
-            </li>
-        </li>
-        
-        <!-- Divider -->
-        <hr class="sidebar-divider mt-3">
-        <!-- Sidebar Toggler (Sidebar) -->
-        <div class="text-center d-none d-md-inline">
-            <button class="rounded-circle border-0" id="sidebarToggle"></button>
-        </div>
-    </ul>
-    <!-- End of Sidebar -- > 
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Kategori Buku</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Data Anggota</span></a>
+    </li>
+
+    <div class="sidebar-heading">
+        Dashboard
+    </div>
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('admin/index'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Dashboard</span></a>
+    </li>
+    </li>
+    <!-- Divider -->
+    <hr class="sidebar-divider mt-3">
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+</ul>
+<!-- End of Sidebar -- >
